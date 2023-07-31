@@ -1,0 +1,52 @@
+{
+  "statefulConfig": {
+    "functionId": "4c9b2270-8b85-4dcb-9e83-f9a32db3bf13",
+    "functionName": "cs-node",
+    "description": "hello world by serverless devs",
+    "runtime": "custom-container",
+    "handler": "index.handler",
+    "timeout": 60,
+    "initializer": "",
+    "initializationTimeout": 3,
+    "codeSize": 0,
+    "codeChecksum": "",
+    "memorySize": 256,
+    "gpuMemorySize": null,
+    "environmentVariables": {},
+    "createdTime": "2023-07-31T03:15:41Z",
+    "lastModifiedTime": "2023-07-31T05:24:02Z",
+    "instanceConcurrency": 1,
+    "instanceSoftConcurrency": null,
+    "customContainerConfig": {
+      "accelerationInfo": {
+        "status": "Preparing"
+      },
+      "accelerationType": "Default",
+      "args": null,
+      "command": null,
+      "image": "registry.cn-hangzhou.aliyuncs.com/psylife/cs-node:v1",
+      "imageAcclConfig": null,
+      "instanceID": null,
+      "serverlessImage": null,
+      "webServerMode": true
+    },
+    "caPort": 9000,
+    "instanceType": "e1",
+    "layers": null,
+    "layersArnV2": null,
+    "instanceLifecycleConfig": {
+      "preFreeze": {
+        "handler": "",
+        "timeout": 3
+      },
+      "preStop": {
+        "handler": "",
+        "timeout": 3
+      }
+    },
+    "customDNS": null,
+    "customRuntimeConfig": null,
+    "customHealthCheckConfig": null,
+    "name": "cs-node"
+  }
+}

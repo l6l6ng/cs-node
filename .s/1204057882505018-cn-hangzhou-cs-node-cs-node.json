@@ -14,12 +14,12 @@
     "gpuMemorySize": null,
     "environmentVariables": {},
     "createdTime": "2023-07-31T03:15:41Z",
-    "lastModifiedTime": "2023-07-31T05:24:02Z",
+    "lastModifiedTime": "2023-07-31T06:34:10Z",
     "instanceConcurrency": 1,
     "instanceSoftConcurrency": null,
     "customContainerConfig": {
       "accelerationInfo": {
-        "status": "Preparing"
+        "status": "Ready"
       },
       "accelerationType": "Default",
       "args": null,
